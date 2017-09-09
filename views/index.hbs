@@ -1,0 +1,70 @@
+<!--
+    Author: W3layouts
+    Author URL: http://w3layouts.com
+    License: Creative Commons Attribution 3.0 Unported
+    License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+
+
+
+<!-- Head -->
+<head>
+
+<title>{{title}}</title>
+
+<!-- For-Mobile-Apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="Youtube Download Mp3 Music Sound YT2MP3">
+<!-- //For-Mobile-Apps -->
+
+<!-- Style -->
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css"            type="text/css" media="all">
+<!-- //Style -->
+
+<!-- Font-Awesome-Icons-File -->
+<link rel="stylesheet" href="fonts/fontawesome-webfont.ttf" type="text/css" media="all">
+<!-- //Font-Awesome-Icons-File -->
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+<body>
+	<div class="banner-info">
+    <h1>YT2MP3</h1>
+
+    <div class="wrapper agileinfo" id="cInfo">
+        <div class="newsletter agile">
+            <img id="loadingBar" src="images/loading.gif" hidden>
+            <form action="/convert" method="post" id="dForm">
+                <input id="yURL" name="yURL" class="email aitsw3ls" type="text" placeholder="Insert Youtube Link" required="">
+                <input type="submit" class="submit" value="" onclick=loadingAction()>
+            </form>  
+        </div>          
+
+    </div>
+
+    <div class="footer">
+        <p> &copy; YT2MP3 developed by <a href="https://github.com/x0uter">x0uter</a> | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+    </div>
+</div>
+    <!-- Custom-JavaScript-File-Links -->
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <!-- //Custom-JavaScript-File-Links -->
+
+    <script>
+        function loadingAction(){
+            document.getElementById('loadingBar').removeAttribute('hidden')
+        }
+    </script>
+
+</body>
+<!-- //Body -->
+
+</html>
