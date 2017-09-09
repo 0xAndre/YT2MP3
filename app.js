@@ -31,7 +31,6 @@ app.get('/', (req, res, next) => {
  * POST REQUESTS
  */
 app.post('/convert', (req, res, next) => {
-  console.log(__dirname)
     ytController.ytConvert(req.body.yURL, (err, data) => {
         if(err) next(err)
         res.redirect('/converted_files/' + data.videoTitle + '.mp3')
